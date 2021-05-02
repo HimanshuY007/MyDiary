@@ -1,0 +1,42 @@
+.dates{
+    margin-top: 10px;
+    height: 75vh;
+    overflow: auto;
+}
+
+.dates::-webkit-scrollbar{
+    width: 7px;
+}
+.dates::-webkit-scrollbar-track{
+background-color: rgba(0, 0, 0, 0.1);
+}
+.dates::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 3.5px;
+}
+.dates::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.weekly{
+    display: flex;
+    text-align: center;
+}
+.weekly>div{
+    flex: 1;
+    height: 20vh;
+    border-right: 0.3px rgb(214, 209, 209) solid;
+    border-bottom: 0.3px rgb(214, 209, 209) solid;
+}
+.weekly>div:last-child{border-right: none;}
+.weekly>div:first-child{
+    background-color: rgb(214, 209, 209);
+    border-top: 0.3px rgb(214, 209, 209) solid ;
+}
+.thumbnail{
+    margin-top: 20px;
+}
+.thumbnail img{
+    width :95%;
+    height: 14vh;
+}
+

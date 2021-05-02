@@ -1,0 +1,29 @@
+div .header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: 700;
+    flex-wrap: wrap;
+}
+.header>div{
+    margin: 15px 10px;
+}
+.title{flex: 1;}
+.title span{color: rgb(51, 99, 201);}
+.arrow span{
+   vertical-align: middle;
+   font-weight: bold;
+}
+/* ---------------------------------------weeks--------------------------------------------------- */
+div.weeks{
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+}
+.weeks>div{
+    flex: 1;
+    text-align: center;
+}
+
+
+
