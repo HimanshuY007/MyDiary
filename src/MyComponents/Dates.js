@@ -1,4 +1,4 @@
-import React, {useRef, useEffect} from 'react'
+import React, {useRef} from 'react'
 import {Display} from './Display'
 import moment from 'moment'
 import Sky from '../img1.jpg'
@@ -35,9 +35,6 @@ export const Dates = ({difference, scrolling}) => {
    var width = refCard.current.children[imageindex].clientWidth;
    refCard.current.scrollLeft = imageindex*(width+30)- 0.4*width;
   }
-  useEffect(() => {
-    refscroll.current.children[difference].scrollIntoView();
-  }, []);
  return(
    <>
         <div className = "dates" ref = {refscroll} onScroll= {scrolling}>
