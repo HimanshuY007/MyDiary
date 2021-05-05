@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mydiary/static/css/main.6c5b8968.chunk.css",
+    "main.css": "/mydiary/static/css/main.2bf8b7ee.chunk.css",
     "main.js": "/mydiary/static/js/main.b267fb68.chunk.js",
     "main.js.map": "/mydiary/static/js/main.b267fb68.chunk.js.map",
     "runtime-main.js": "/mydiary/static/js/runtime-main.ac937494.js",
@@ -10,14 +10,14 @@
     "static/js/3.01a6d1db.chunk.js": "/mydiary/static/js/3.01a6d1db.chunk.js",
     "static/js/3.01a6d1db.chunk.js.map": "/mydiary/static/js/3.01a6d1db.chunk.js.map",
     "index.html": "/mydiary/index.html",
-    "static/css/main.6c5b8968.chunk.css.map": "/mydiary/static/css/main.6c5b8968.chunk.css.map",
+    "static/css/main.2bf8b7ee.chunk.css.map": "/mydiary/static/css/main.2bf8b7ee.chunk.css.map",
     "static/js/2.d15ccd13.chunk.js.LICENSE.txt": "/mydiary/static/js/2.d15ccd13.chunk.js.LICENSE.txt",
     "static/media/img1.e6e4f8a4.jpg": "/mydiary/static/media/img1.e6e4f8a4.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ac937494.js",
     "static/js/2.d15ccd13.chunk.js",
-    "static/css/main.6c5b8968.chunk.css",
+    "static/css/main.2bf8b7ee.chunk.css",
     "static/js/main.b267fb68.chunk.js"
   ]
 }
